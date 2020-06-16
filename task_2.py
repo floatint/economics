@@ -32,6 +32,7 @@ Qdp = Qd(P)
 # Предложение
 Qsp = Qs(P)
 
+print("Равновесная цена: " + str(Pe))
 print("Равновесный объем: " + str(Qde))
 print("Равновесное предложение: " + str(Qse))
 print("Объем: " + str(Qdp))
