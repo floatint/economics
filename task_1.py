@@ -23,6 +23,8 @@ for q in range(0, len(Q)):
     if Q[q] == 0:
         TFC[q] = TC[q]
         TVC[q] = TC[q] - TFC[q]
+        print("TFC[{}] = TC[{}] = {}".format(q, q, TC[q]))
+        print("TVC[{}] = TC[{}] - TFC[{}] = {}".format(q, q, q, TVC[q]))
     else:
         TVC[q] = TC[q] - TFC[q - 1]
         TFC[q] = TC[q] - TVC[q]
